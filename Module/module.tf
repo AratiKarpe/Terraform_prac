@@ -10,7 +10,7 @@ module "EC2" {
 }
 
 module "VPC" {
-    source = "/home/arati_26/terraform/Resource/EC2/"
+    source = "/home/arati_26/terraform/Resource/VPC/"
     thisvpc_cidr = "172.30.0.0/16"
     cbz_subneta = "172.30.0.0/20"
 }
